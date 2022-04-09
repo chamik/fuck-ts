@@ -2,7 +2,7 @@
 
 We live in a liberal world where one has the freedom to store whatever data they want in a variable, but the all-powerful lizards at Microsoft decided we aren't oppressed enough and introduced **TypeScript**, reciting *safety* and *predictability* as justifications for this tyrany.
 
-I say fuck to that. I want to mutate the type of my variables. I want to spend 2 hours finding a bug that could have been easily avoided. I want my data to be free of the hellish type-scape.
+I say fuck to that. I want to mutate the type of my variables. I want to spend two hours finding a bug that could have easily been avoided. I want my data to be free of this hellish type-scape.
 
 ### Requirements
 
