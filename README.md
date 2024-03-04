@@ -35,26 +35,26 @@ app.listen(port, () => {
 ```
 To this:
 ```ts
-// @ts-ignore
+// @ts-expect-error leave me alone
 import express, { Express, Request, Response } from 'express';
 
-// @ts-ignore
+// @ts-expect-error leave me alone
 const app: Express = express();
-// @ts-ignore
+// @ts-expect-error leave me alone
 const port = 3000;
 
-// @ts-ignore
+// @ts-expect-error leave me alone
 app.get('/', (req: Request, res: Response) => {
-// @ts-ignore
+// @ts-expect-error leave me alone
   res.send('look at this lame typescript express app');
-// @ts-ignore
+// @ts-expect-error leave me alone
 });
 
-// @ts-ignore
+// @ts-expect-error leave me alone
 app.listen(port, () => {
-// @ts-ignore
+// @ts-expect-error leave me alone
   console.log(`Server is running at https://localhost:${port}`);
-// @ts-ignore
+// @ts-expect-error leave me alone
 });
 ```
 
